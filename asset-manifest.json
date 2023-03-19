@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.ddbbbf14.css",
-    "main.js": "/website/static/js/main.c0a6f95c.js",
+    "main.css": "/website/static/css/main.798da02e.css",
+    "main.js": "/website/static/js/main.d4865751.js",
+    "static/media/portfolio.png": "/website/static/media/portfolio.affc2a2314a274195172.png",
     "static/media/mailchimp-Vc2dD4l57og-unsplash.jpg": "/website/static/media/mailchimp-Vc2dD4l57og-unsplash.c2592db8123ed04c399d.jpg",
+    "static/media/kinggnu.png": "/website/static/media/kinggnu.b26c6e5f0d8017df567c.png",
+    "static/media/majan.png": "/website/static/media/majan.a657a4e7ea37ef5a2669.png",
+    "static/media/bootstrap.png": "/website/static/media/bootstrap.1fd8dd2b4d2aa0d08d93.png",
     "static/media/IMG_6487.jpg": "/website/static/media/IMG_6487.ff8da70596ac9eed00ed.jpg",
+    "static/media/todo.png": "/website/static/media/todo.84cff3fdc5d1254e82d4.png",
+    "static/media/quiz.png": "/website/static/media/quiz.5c36a738388d15b48f68.png",
+    "static/media/three.png": "/website/static/media/three.f0288c62a39362b5dee9.png",
     "index.html": "/website/index.html",
-    "main.ddbbbf14.css.map": "/website/static/css/main.ddbbbf14.css.map",
-    "main.c0a6f95c.js.map": "/website/static/js/main.c0a6f95c.js.map"
+    "main.798da02e.css.map": "/website/static/css/main.798da02e.css.map",
+    "main.d4865751.js.map": "/website/static/js/main.d4865751.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddbbbf14.css",
-    "static/js/main.c0a6f95c.js"
+    "static/css/main.798da02e.css",
+    "static/js/main.d4865751.js"
   ]
 }
