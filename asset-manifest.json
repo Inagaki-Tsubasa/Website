@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.9722cc16.css",
-    "main.js": "/website/static/js/main.505e2e34.js",
+    "main.css": "/website/static/css/main.0df96cfe.css",
+    "main.js": "/website/static/js/main.f6b08056.js",
     "static/media/portfolio.png": "/website/static/media/portfolio.affc2a2314a274195172.png",
+    "static/media/newapp.png": "/website/static/media/newapp.2b74bab8bc50147b2cf8.png",
     "static/media/mailchimp-Vc2dD4l57og-unsplash.jpg": "/website/static/media/mailchimp-Vc2dD4l57og-unsplash.c2592db8123ed04c399d.jpg",
     "static/media/kinggnu.png": "/website/static/media/kinggnu.b26c6e5f0d8017df567c.png",
     "static/media/majan.png": "/website/static/media/majan.a657a4e7ea37ef5a2669.png",
@@ -12,11 +13,11 @@
     "static/media/quiz.png": "/website/static/media/quiz.5c36a738388d15b48f68.png",
     "static/media/three.png": "/website/static/media/three.f0288c62a39362b5dee9.png",
     "index.html": "/website/index.html",
-    "main.9722cc16.css.map": "/website/static/css/main.9722cc16.css.map",
-    "main.505e2e34.js.map": "/website/static/js/main.505e2e34.js.map"
+    "main.0df96cfe.css.map": "/website/static/css/main.0df96cfe.css.map",
+    "main.f6b08056.js.map": "/website/static/js/main.f6b08056.js.map"
   },
   "entrypoints": [
-    "static/css/main.9722cc16.css",
-    "static/js/main.505e2e34.js"
+    "static/css/main.0df96cfe.css",
+    "static/js/main.f6b08056.js"
   ]
 }
