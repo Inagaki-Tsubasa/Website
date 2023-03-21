@@ -1,4 +1,4 @@
-import React from　'react'
+import React from 'react'
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -7,16 +7,16 @@ const Header = () => {
         <nav className='header-nav'>
             <ul className='header-navlist'>
                 <li className='header-navitem'>
-                    <Link to="/">HOME</Link>
+                    <Link to="/website/">HOME</Link>
                  </li>
                 <li>
-                    <Link to="/skills">SKILLS</Link>
+                    <Link to="/website/skills">SKILLS</Link>
                 </li>
                 <li>                      
-                    <Link to="/question">QUESTION</Link>
+                    <Link to="/website/question">QUESTION</Link>
                 </li>
                 <li>
-                    <Link to="/spotify">SPOTIFY</Link>
+                    <Link to="/website/like">LIKE</Link>
                 </li>
             </ul>
         </nav>

@@ -5,6 +5,7 @@ const ContentTitle = (props) => {
     <div className="contents-title">
         <div className="titles">
             <h1>{props.title}</h1>
+            <p>{props.text}</p>
         </div>
     </div>
   )

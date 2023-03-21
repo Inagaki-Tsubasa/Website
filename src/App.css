@@ -4,19 +4,25 @@
 
 *{
     font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* 
+ヘッダーのコンポーネント
+*/
 header{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgb(129, 128, 139);
+    background-color: rgb(160, 158, 176);
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 100vw;
-    height: 200px;
+    height: 15%;
     color: white;
     z-index: 10;
     
@@ -27,8 +33,8 @@ header{
 nav ul li {
     list-style: none;
     display: inline-block;
-    font-size: 80px;
-    margin-right: 120px;
+    font-size: 350%;
+    margin: 50px;
     font-weight: bold;
 
 }
@@ -47,73 +53,127 @@ nav ul li a:hover{
 
 
 
-
+/*
+ ホームのメイン画像
+ */
 .hero{
-    padding-top: 200px;
+    padding-top: 7%;
     position: relative;
 }
 
 .hero-text{
     position: absolute;
-    top: 240px;
-    font-size: 120px;
+    top: 12%;
+    left: 2%;
+    font-size: 400%;
     color: rgb(58, 44, 47);
 }
 
 .hero-text h1{
-    font-size: 240px;
+    font-size: 300%;
     font-weight: 700;
+}
+
+
+.hero-image img{
+    width: 100%;
+    height: 90vh;
+}
+
+
+
+
+/*
+ホームの自己紹介
+ */
+.self-introduction{
+    padding-top: 8%;
+    display: flex;
+    /* padding-left: 15%; */
+    overflow: hidden;
+    padding-bottom: 5%;
+    
+    
 }
 
 .self-icon {
     overflow: hidden;
-    
-}
-.hero-image img{
-    width: 100%;
-    height: 100vh;
-}
-
-
-
-
-
-.self-introduction{
-    padding-top: 500px;
-    display: flex;
-    padding-left: 500px;
-    
-}
-
-.self-icon{
+    padding-left: 10%;
+    text-align: center;
     
 }
 
 
 .self-icon img{
-    width: 700px;
-    height: 700px;
+    width: 50%;
+    /* height: 65%; */
     border-radius: 100%;
-    margin-right: 200px;
+    /* margin-right: 200px; */
+    /* padding-left: 15%; */
+    margin-top: 5%;
 
 }
 
 .introduction-text{
-    padding-top: 200px;
-    margin-right: 100px;
+    padding-top: 2%;
+    /* margin-right: 10%; */
+    /* padding: 5%; */
+    /* width: 100%; */
+    
     
     
 }
 
 .introduction-text h1{
     font-weight: 700;
-    font-size: 80px;
+    font-size: 350%;
 }
 
 .introduction-text h5{
-    font-size: 40px;
-    padding-top: 50px;
+    font-size: 200%;
+    padding-top: 5%;
+    line-height: 160%;
+}
 
+
+
+/* 
+各アプリのアイコン
+ */
+ 
+
+.github-icon{
+    font-size: 600%;
+    color: black;
+    transition: all 0.5s;
+    
+}
+
+.github-icon:hover{
+    color: rgb(66, 66, 68);
+}
+
+.insta-icon{
+    font-size: 600%;
+    color: #E4405F;
+    transition: all 0.5s;
+    padding-left: 5%;
+}
+
+.insta-icon:hover{
+    color: rgb(210, 112, 128);
+
+}
+
+.twitter-icon{
+    font-size: 600%;
+    color: #1DA1F2;
+    transition: all 0.5s;
+    padding-left: 5%;
+}
+
+.twitter-icon:hover{
+    color: rgb(84, 120, 177);
 }
 
 
@@ -121,11 +181,15 @@ nav ul li a:hover{
 
 
 
-
+/* 
+フッターコンポーネント
+*/
 footer{
-    background-color: black;
-    margin-top: 500px;
-    height: 200px;
+    background-color: rgb(154, 144, 155);
+    margin-top: 10%;
+    padding:2% 0;
+    width: 100%;
+    height: 40%;
 }
 
 footer a{
@@ -133,19 +197,305 @@ footer a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 60px;
-    padding-top: 30px;
+    font-size: 200%;
+    /* padding-top: 30px; */
+    transition: all 0.5s;
+}
+
+footer a:hover{
+    color: black;
 }
 
 
 
-
+/* 
+各ページのタイトルコンポーネント
+ */
 .contents-title{
-    padding-top: 250px;
+    padding-top: 12%;
 }
 
 .titles h1{
-    font-size: 140px;
+    font-size: 600%;
     font-weight: 700;
     text-align: center;
 }
+
+.titles p{
+    font-size: 250%;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+
+/* 
+webサイトの紹介
+ */
+.app-container{
+    padding-top: 5%;
+    background-color: #edf9ee;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+.app-container h1{
+    transform: rotate(-5deg);
+    margin-bottom: 5%;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 400%;
+    margin-left: 6%;
+}
+
+
+.card-content{
+    /* box-shadow: 0px 2px 6px rgba(0, 0, 0, 5); */
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.card {
+    /* background-color: #ffffff; */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.8);
+    border-radius: 8%;
+    overflow: hidden;
+    width: 35%;
+    /* height: 20%; */
+    /* margin: 0 5% 0 5%; */
+    margin: 0 0 0 10%;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 60%;
+  }
+  
+  .card .card-body-b {
+    padding: 2%;
+  }
+  
+  .card h2 {
+    font-size: 250%;
+    margin: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+  }
+  
+  .card p {
+    font-size: 150%;
+    /* line-height: 1.5; */
+    margin: 5% 2% 0 2%;
+
+  }
+
+  .card h5{
+    font-size: 200%;
+    font-weight: 700;
+    margin: 1% 2% 5% 2%;
+  }
+  
+  .card a {
+    display: block;
+    background-color: #5eb3e5;
+    color: #ffffff;
+    text-align: center;
+    /* margin-top: 8%; */
+    padding: 2% 1% 2% 1%;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 200%;
+    font-weight: 700;
+    transition: all 0.5s;
+  }
+
+  .card a:hover{
+    color: black;
+
+  }
+
+
+
+  /* 
+  勉強しているスキル 
+  */
+
+.study{
+    padding-top: 3%;
+    margin-left: 10%;
+    /* width: 100%; */
+}
+
+.study h1{
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    /* width: 100%; */
+    /* border: 1px solid black;    */
+}
+
+.study-container{
+    margin-bottom: 4%;
+}
+
+.study-container img{
+  margin-top: 1%;
+  width: 6%;
+  margin-left: 4%;
+}
+
+
+
+/* 
+質問コンポーネント
+ */
+.question{
+    /* margin-top: 10%; */
+    margin:12% 5% 0 5%;
+}
+
+
+
+.q-sec{
+    text-indent: 2%;
+    padding-top: 2%;
+    margin-top: 4%;
+    padding-bottom: 2%;
+    background-color: rgb(249, 243, 236);
+    justify-content: center;
+    font-weight: 400;
+    /* text-align: center; */
+}
+
+.a-sec{
+    text-indent: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(250, 226, 226);
+    justify-content: center;
+    font-weight: 400;
+    /* text-align: center; */
+}
+
+
+
+
+/* SKILLSコンポーネント */
+.skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 3% 10% 3%;
+}
+
+
+
+/* 
+SKILLSカードコンポーネント 
+*/
+
+
+
+
+
+.cards {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 3%;
+    width: 30%;
+    margin-top: 10%;
+  }
+  
+  .cards img {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .cards .cards-body {
+    padding: 4%;
+  }
+  
+  .cards h2 {
+    font-size: 180%;
+    margin: 0 0 1%;
+  }
+  
+  .cards p {
+    font-size: 120%;
+    line-height: 1.2;
+    margin-top: 3%;
+  }
+
+  .cards h5{
+    font-size: 180%;
+  }
+  
+  .cards a {
+    display: block;
+    background-color: #8ab9e0;
+    color: #ffffff;
+    text-align: center;
+    padding: 4%;
+    text-decoration: none;
+    border-radius: 5%;
+    margin-top: 5%;
+    transition: all 0.5s;
+    font-size: 150%;
+  }
+
+  .cards a:hover{
+    color: black;
+  }
+
+
+
+
+
+  /* ライクコンポーネント */
+
+  .like-title{
+    font-size: 500%;
+    font-weight: 700;
+    margin: 10% 0 0 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .movie-youtube{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 8% 6% 8%;
+    
+  }
+
+  .card-link{
+    background-color: #ffffff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+    /* margin-right: 5%; */
+    /* margin: 10% 8% 4% 8%; */
+    width: 40%;
+    height: 35%;
+    margin: 5% 10% 0 0%;
+    /* margin-top: 10%; */
+
+  }
+
+  .link-text{
+    padding: 2%;
+  }
+
+  .link-text h1{
+    font-weight: 700;
+    font-size: 250%;
+    margin-bottom: 5%;
+  }
+
+  .link-text p{
+    font-size: 140%;
+  }
+
+  
+
+
